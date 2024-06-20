@@ -10,9 +10,9 @@ Our company now sees all the big companies creating original video content and t
 - __Goal:__ Recommend at least 3 actionable insights
 - __Stakeholders:__ Head of the company's new movie studio division
 - __Key Business Questions:__ 
-1. What are the factors that correlate to a successful movie?
-2. What is the most profitable genre?
-3. How much investment is worth it to make a profit?
+    1. What are the factors that correlate to a successful movie?
+    2. What is the most profitable genre?
+    3. How much investment is worth it to make a profit?
 
 ## Data Understanding and Analysis
 - Source of Data:
