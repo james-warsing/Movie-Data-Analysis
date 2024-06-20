@@ -1,4 +1,4 @@
-![Banner](banner2)
+![banner](images/banner2.webp)
 
 # Box Office Boom
 #### Authors: Chisum Lindauer and James Warsing
@@ -20,29 +20,29 @@ Our company now sees all the big companies creating original video content and t
     2. Box Office Mojo
     3. The Numbers
     4. API's(The Movie Database, RapidAPI's Movies Database)
-- Description of Data: The data we analyzed from various sources identify factors for box office success, including genres, budget, profit, gross, runtime, ratings, and reviews.
+- Description of Data: The data we analyzed from various sources identify factors for box office success, including genres, budget, profit, gross, runtime, ratings, and reviews. These features allow us to target and identify specific variables so we can make educated conclusions.
 ### Visualizations
 1. Analyzing vs. ROI
 
-![ROI corr](correlation.png)
+![ROI corr](images/heatmap.png)
 
 This heatmap lets us see how much each statistic affects the ROI and profit.
 
 2. Top Profit Movies
 
-![Top Movies](Top_10_Movies.png)
+![Top Movies](images/Top_10_Movies.png)
 
 This shows us the ten movies that have made the most profit
 
 3. ROI by Genre and Budget
 
-![ROI budget](budget.png)
+![ROI budget](images/budget.png)
 
 This shows us the budget ranges for each genre and how much ROI they have. This lets us gauge which budget range/genre makes more sense to pursue.
 
 4. Reviews
 
-![Reviews](Reviews)
+![reviews](images/Reviews.png)
 
 This chart shows the number of reviews and how they affect the profit
 
