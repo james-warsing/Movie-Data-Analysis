@@ -51,11 +51,11 @@ domestic_gross,tn_production_budget,0.7719986587708949,Higher domestic grosses o
 tn_production_budget,scaled_domestic_gross,0.7719986587708938,
 tn_domestic_gross,scaled_tn_production_budget,0.7600898835174207,
 tn_production_budget,tn_domestic_gross,0.760089883239508,Production budget correlates with domestic gross; allocate budget based on domestic market potential.
-scaled_foreign_gross,log_profit,0.7303292909590244,
-foreign_gross,log_profit,0.7303292886231884,Foreign gross is a key factor in logarithmic profit; enhance foreign market strategies.
-tn_domestic_gross,log_profit,0.7227714467005578,Domestic gross contributes significantly to log profit; maintain a robust domestic market.
-domestic_gross,log_profit,0.700009133614076,Domestic gross impacts logarithmic profit; ensure strong domestic performance.
-scaled_domestic_gross,log_profit,0.7000091336140754,
+scaled_foreign_gross,log_profit,0.730329288080075,
+foreign_gross,log_profit,0.7303292857442384,Foreign gross is a key factor in logarithmic profit; enhance foreign market strategies.
+tn_domestic_gross,log_profit,0.7227714438247692,Domestic gross contributes significantly to log profit; maintain a robust domestic market.
+domestic_gross,log_profit,0.70000913149727,Domestic gross impacts logarithmic profit; ensure strong domestic performance.
+scaled_domestic_gross,log_profit,0.7000091314972696,
 numvotes,tn_worldwide_gross,0.6979082488668302,Number of votes correlates with worldwide gross; engage audiences to drive votes and gross.
 numvotes,scaled_tn_worldwide_gross,0.6979082470577179,
 numvotes,domestic_gross,0.691744915374077,Number of votes impacts domestic gross; increase audience engagement domestically.
@@ -71,15 +71,15 @@ numvotes,scaled_foreign_gross,0.6523373106199124,
 numvotes,foreign_gross,0.6523373091813823,Audience votes drive foreign gross; enhance international audience interaction.
 numvotes,tn_production_budget,0.6349632380297351,Production budget correlates with number of votes; budget for marketing to boost engagement.
 numvotes,scaled_tn_production_budget,0.6349632379581248,
-tn_production_budget,log_profit,0.5979292202196091,Production budget impacts log profit; ensure effective budget use.
-scaled_tn_production_budget,log_profit,0.5979292200287125,
-scaled_tn_worldwide_gross,log_profit,0.5827942446746627,
-tn_worldwide_gross,log_profit,0.5827942445456493,Worldwide gross significantly affects log profit; global market focus is crucial.
+tn_production_budget,log_profit,0.5979292187109426,Production budget impacts log profit; ensure effective budget use.
+scaled_tn_production_budget,log_profit,0.5979292185200458,
+scaled_tn_worldwide_gross,log_profit,0.5827942434367347,
+tn_worldwide_gross,log_profit,0.582794243307722,Worldwide gross significantly affects log profit; global market focus is crucial.
 tn_domestic_gross,roi_perc,0.5568453166224703,
 tn_domestic_gross,profit_proportion,0.5568453153229439,Domestic gross impacts ROI; maximize domestic revenue for better returns.
-scaled_profit,log_profit,0.5454152738919287,
-profit,log_profit,0.5454152734870158,Profit and log profit are strongly related; both are key performance indicators.
-numvotes,log_profit,0.5114896208596048,Audience votes correlate with log profit; focus on engaging content to increase profitability.
+scaled_profit,log_profit,0.5454152728036284,
+profit,log_profit,0.5454152723987147,Profit and log profit are strongly related; both are key performance indicators.
+numvotes,log_profit,0.5114896203379092,Audience votes correlate with log profit; focus on engaging content to increase profitability.
 tn_production_budget,isgenre_adventure,0.5027490503250772,Adventure films often require higher budgets; allocate resources accordingly.
 isgenre_adventure,scaled_tn_production_budget,0.502749050092651,
 domestic_gross,roi_perc,0.5021377420982029,
@@ -103,12 +103,12 @@ tn_worldwide_gross,roi_perc,0.4440543912193329,
 roi_perc,scaled_tn_worldwide_gross,0.4440543909644453,
 tn_worldwide_gross,profit_proportion,0.4440543907799136,Worldwide gross drives ROI; aim for global box office success.
 profit_proportion,scaled_tn_worldwide_gross,0.4440543905250251,
-roi_perc,log_profit,0.41485858698993233,
-profit_proportion,log_profit,0.4148585863891772,ROI and log profit are related; improving profit boosts ROI.
+roi_perc,log_profit,0.41485858819662336,
+profit_proportion,log_profit,0.41485858759586797,ROI and log profit are related; improving profit boosts ROI.
 isgenre_animation,isgenre_adventure,0.4067795184889101,
 isgenre_adventure,scaled_tn_worldwide_gross,0.39624123143779394,
 tn_worldwide_gross,isgenre_adventure,0.3962412308947241,Adventure films contribute to worldwide gross; global market strategies should include adventure genres.
-isgenre_adventure,log_profit,0.37160245614238746,Adventure films contribute to log profit; invest in high-quality adventure films.
+isgenre_adventure,log_profit,0.3716024559665019,Adventure films contribute to log profit; invest in high-quality adventure films.
 tn_production_budget,isgenre_action,0.3668817430826542,Action films require larger budgets; plan budget allocation to support action films.
 isgenre_action,scaled_tn_production_budget,0.36688174297126996,
 isgenre_action,scaled_foreign_gross,0.3552845991041767,
@@ -125,9 +125,9 @@ profit,isgenre_adventure,0.3314934923666845,Adventure genres contribute to profi
 domestic_gross,isgenre_sci-fi,0.31962826620391277,Sci-fi films boost domestic gross; prioritize sci-fi production for domestic audiences.
 isgenre_sci-fi,scaled_domestic_gross,0.3196282662039125,
 runtime_minutes,tn_domestic_gross,0.3137570577616033,Longer runtimes are linked to domestic gross; consider runtime strategies.
-isgenre_action,isgenre_adventure,0.3123297575127195,
+isgenre_adventure,isgenre_action,0.31232975751271946,
 tn_domestic_gross,isgenre_sci-fi,0.31168037856571906,Sci-fi films perform well domestically; invest in sci-fi genre for local success.
-isgenre_action,log_profit,0.3058812795327255,Action films contribute to log profit; prioritize action genres.
+isgenre_action,log_profit,0.3058812765256687,Action films contribute to log profit; prioritize action genres.
 averagerating,numvotes,0.30508022859098444,Higher ratings correlate with more votes; ensure quality to drive audience engagement.
 isgenre_mystery,isgenre_horror,0.2979475600120726,
 averagerating,domestic_gross,0.2937653452620736,Higher average ratings boost domestic gross; focus on film quality.
@@ -158,12 +158,12 @@ runtime_minutes,tn_worldwide_gross,0.22924335585336522,Longer runtimes drive wor
 runtime_minutes,isgenre_action,0.22717096964382855,Action films tend to have longer runtimes; plan accordingly.
 isgenre_action,scaled_profit,0.22694493693043405,
 profit,isgenre_action,0.2269449369150145,Action films contribute to profit; invest in action genres.
-runtime_minutes,log_profit,0.22558069851366225,Longer runtimes are linked to log profit; invest in longer films for better returns.
+runtime_minutes,log_profit,0.22558069803802797,Longer runtimes are linked to log profit; invest in longer films for better returns.
 runtime_minutes,domestic_gross,0.22278326162582285,Longer runtimes boost domestic gross; plan runtime accordingly.
 runtime_minutes,scaled_domestic_gross,0.22278326162582274,
 isgenre_drama,isgenre_biography,0.2181831078039727,
-domestic_gross,isgenre_animation,0.21748513230458238,Animation films boost domestic gross; prioritize animation production.
 isgenre_animation,scaled_domestic_gross,0.21748513230458238,
+domestic_gross,isgenre_animation,0.21748513230458238,Animation films boost domestic gross; prioritize animation production.
 averagerating,profit_proportion,0.21604382438410247,Higher ratings improve ROI; ensure high film quality.
 averagerating,roi_perc,0.21604382436473157,
 averagerating,isgenre_drama,0.2149202591096235,Higher ratings are associated with drama films; focus on quality in drama genres.
@@ -177,15 +177,15 @@ runtime_minutes,profit,0.1998633537526685,
 runtime_minutes,scaled_profit,0.19986335341675537,
 isgenre_animation,scaled_foreign_gross,0.18993085586908437,
 foreign_gross,isgenre_animation,0.18993085367420406,
-isgenre_sci-fi,log_profit,0.18849533516673805,
+isgenre_sci-fi,log_profit,0.18849533318852213,
 averagerating,tn_worldwide_gross,0.18301476659526072,
 averagerating,scaled_tn_worldwide_gross,0.1830147664758703,
 averagerating,profit,0.18038340858435437,
 averagerating,scaled_profit,0.18038340856131077,
-isgenre_history,isgenre_drama,0.17790596879276238,
-isgenre_animation,log_profit,0.164864035551694,
-isgenre_action,isgenre_sci-fi,0.16385246516040233,
-isgenre_action,isgenre_crime,0.16062773690789237,
+isgenre_drama,isgenre_history,0.17790596879276238,
+isgenre_animation,log_profit,0.16486403613967976,
+isgenre_sci-fi,isgenre_action,0.1638524651604024,
+isgenre_crime,isgenre_action,0.16062773690789237,
 averagerating,isgenre_biography,0.1548519470740716,
 tn_production_budget,isgenre_animation,0.15429577881034326,
 isgenre_animation,scaled_tn_production_budget,0.15429577850268777,
@@ -193,15 +193,15 @@ averagerating,isgenre_documentary,0.15083709290372432,
 isgenre_horror,isgenre_thriller,0.14968955982088591,
 tn_production_budget,isgenre_fantasy,0.14961187773676915,
 isgenre_fantasy,scaled_tn_production_budget,0.1496118773365275,
-averagerating,log_profit,0.14895037705951808,
+averagerating,log_profit,0.14895037804784148,
 averagerating,scaled_tn_production_budget,0.14528318557043032,
 averagerating,tn_production_budget,0.14528318547810562,
 runtime_minutes,isgenre_history,0.1451116230654389,
-isgenre_comedy,isgenre_animation,0.14386422655897843,
+isgenre_animation,isgenre_comedy,0.14386422655897843,
 runtime_minutes,roi_perc,0.13963683020935766,
 runtime_minutes,profit_proportion,0.13963682950965045,
-isgenre_romance,isgenre_drama,0.12949765143887015,
-isgenre_fantasy,isgenre_adventure,0.12859356788151285,
+isgenre_drama,isgenre_romance,0.12949765143887015,
+isgenre_adventure,isgenre_fantasy,0.12859356788151285,
 isgenre_mystery,isgenre_thriller,0.12858940501751348,
 isgenre_animation,scaled_tn_worldwide_gross,0.12642423313503082,
 tn_worldwide_gross,isgenre_animation,0.1264242315720057,
@@ -209,25 +209,25 @@ profit_proportion,isgenre_adventure,0.12373644792600842,
 roi_perc,isgenre_adventure,0.12373644750389483,
 isgenre_family,scaled_domestic_gross,0.12165676185721881,
 domestic_gross,isgenre_family,0.1216567618572188,
-isgenre_romance,isgenre_comedy,0.12154451631917988,
+isgenre_comedy,isgenre_romance,0.12154451631917987,
 isgenre_fantasy,scaled_foreign_gross,0.1197340726274056,
 foreign_gross,isgenre_fantasy,0.11973407262181014,
 isgenre_family,isgenre_adventure,0.11739332745969482,
 tn_worldwide_gross,isgenre_fantasy,0.11229352129741706,
 isgenre_fantasy,scaled_tn_worldwide_gross,0.11229352072362246,
 tn_domestic_gross,isgenre_family,0.11091134713622242,
-isgenre_fantasy,log_profit,0.10986833056329896,
+isgenre_fantasy,log_profit,0.10986832958364881,
 isgenre_animation,scaled_profit,0.10768198370534272,
 profit,isgenre_animation,0.10768198196910822,
-isgenre_biography,isgenre_music,0.1059995734147636,
+isgenre_music,isgenre_biography,0.1059995734147636,
 runtime_minutes,isgenre_biography,0.10515455633779129,
-isgenre_sci-fi,isgenre_adventure,0.10318600587396218,
+isgenre_adventure,isgenre_sci-fi,0.10318600587396218,
 isgenre_family,isgenre_fantasy,0.10143036967634794,
 tn_domestic_gross,isgenre_thriller,-0.10041658103164114,
 tn_domestic_gross,isgenre_mystery,-0.10323088114428361,
 isgenre_comedy,isgenre_crime,-0.10380216207894231,
 isgenre_biography,isgenre_horror,-0.10436143530930223,
-isgenre_romance,isgenre_horror,-0.10481974675362528,
+isgenre_horror,isgenre_romance,-0.10481974675362526,
 start_year,profit_proportion,-0.10492003110852,
 start_year,roi_perc,-0.10492003119441207,
 isgenre_action,isgenre_music,-0.10516114150942363,
@@ -236,18 +236,18 @@ domestic_gross,isgenre_horror,-0.10628621078712294,
 isgenre_horror,scaled_tn_production_budget,-0.10658106261725643,
 tn_production_budget,isgenre_horror,-0.1065810626894573,
 isgenre_drama,isgenre_horror,-0.10698385249877569,
-isgenre_biography,isgenre_adventure,-0.10956149588492012,
-isgenre_history,isgenre_adventure,-0.11051834479265397,
+isgenre_adventure,isgenre_biography,-0.10956149588492012,
+isgenre_adventure,isgenre_history,-0.11051834479265395,
 isgenre_horror,scaled_foreign_gross,-0.11099095836533296,
 foreign_gross,isgenre_horror,-0.11099095839309811,
-isgenre_fantasy,isgenre_crime,-0.11240577141723525,
+isgenre_crime,isgenre_fantasy,-0.11240577141723525,
 isgenre_fantasy,isgenre_thriller,-0.11257511982938082,
 isgenre_comedy,scaled_foreign_gross,-0.11315786040116012,
 foreign_gross,isgenre_comedy,-0.11315786043297826,
 isgenre_biography,isgenre_thriller,-0.11408439251480895,
 isgenre_biography,scaled_domestic_gross,-0.11549557518676855,
 domestic_gross,isgenre_biography,-0.11549557518676856,
-isgenre_documentary,isgenre_action,-0.11650989360671837,
+isgenre_action,isgenre_documentary,-0.1165098936067184,
 isgenre_romance,isgenre_thriller,-0.11662789026546387,
 foreign_gross,isgenre_crime,-0.11780168886348534,
 isgenre_crime,scaled_foreign_gross,-0.1178016892409488,
@@ -272,37 +272,37 @@ isgenre_drama,isgenre_sci-fi,-0.1322845645615011,
 isgenre_comedy,isgenre_biography,-0.1325665053985927,
 tn_domestic_gross,isgenre_horror,-0.13437398469706327,
 isgenre_mystery,isgenre_action,-0.1348123922200898,
-isgenre_romance,isgenre_crime,-0.1356070212730764,
-isgenre_drama,log_profit,-0.13577399145597885,
+isgenre_crime,isgenre_romance,-0.1356070212730764,
+isgenre_drama,log_profit,-0.13577398872073812,
 isgenre_family,isgenre_action,-0.13723886824855916,
 foreign_gross,isgenre_romance,-0.1397346571159828,
 isgenre_romance,scaled_foreign_gross,-0.1397346577375966,
 isgenre_action,isgenre_biography,-0.1434695355049351,
 isgenre_mystery,isgenre_adventure,-0.1446771719085048,
-isgenre_horror,isgenre_adventure,-0.14718887139940298,
+isgenre_adventure,isgenre_horror,-0.14718887139940295,
 isgenre_comedy,isgenre_horror,-0.14849095451278335,
-isgenre_history,isgenre_comedy,-0.15115828357912664,
-isgenre_mystery,isgenre_comedy,-0.1530554139080323,
-isgenre_thriller,isgenre_adventure,-0.154027565466006,
+isgenre_comedy,isgenre_history,-0.15115828357912664,
+isgenre_comedy,isgenre_mystery,-0.15305541390803226,
+isgenre_adventure,isgenre_thriller,-0.15402756546600604,
 foreign_gross,isgenre_biography,-0.15420887738046962,
 isgenre_biography,scaled_foreign_gross,-0.1542088779919084,
 isgenre_drama,scaled_profit,-0.15648283914412953,
 profit,isgenre_drama,-0.15648283952614003,
 isgenre_crime,isgenre_adventure,-0.15842387439964276,
-isgenre_romance,isgenre_adventure,-0.16744204673691426,
+isgenre_adventure,isgenre_romance,-0.1674420467369143,
 averagerating,isgenre_horror,-0.1674750955645537,
 isgenre_comedy,isgenre_action,-0.17319677443849646,
-isgenre_documentary,log_profit,-0.17820280734233182,
+isgenre_documentary,log_profit,-0.17820280753519102,
 isgenre_drama,scaled_tn_worldwide_gross,-0.18004205904380968,
 tn_worldwide_gross,isgenre_drama,-0.1800420592197586,
-isgenre_documentary,isgenre_drama,-0.18862735204985553,
-isgenre_romance,isgenre_action,-0.19755090248546567,
+isgenre_drama,isgenre_documentary,-0.18862735204985556,
+isgenre_action,isgenre_romance,-0.19755090248546567,
 runtime_minutes,isgenre_animation,-0.20069545517329704,
 runtime_minutes,isgenre_documentary,-0.20125652275222017,Documentary films tend to have shorter runtimes; plan runtime strategies.
 isgenre_drama,scaled_tn_production_budget,-0.20974635162705957,
 tn_production_budget,isgenre_drama,-0.20974635183554374,Drama films tend to have lower budgets; plan budget allocation accordingly.
 isgenre_comedy,isgenre_drama,-0.22582119822912605,
-isgenre_action,isgenre_drama,-0.22624709460046724,
+isgenre_drama,isgenre_action,-0.2262470946004672,
 isgenre_animation,isgenre_drama,-0.23824341662919996,
 isgenre_comedy,isgenre_thriller,-0.25924199203848286,
 tn_domestic_gross,isgenre_drama,-0.2727059258489136,Drama films tend to perform lower in domestic markets; strategize accordingly.
