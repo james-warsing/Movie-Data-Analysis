@@ -79,6 +79,6 @@ There are still other components we could dive deeper into when it comes to the 
 
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook]() or review this [presentation]()
+See the full analysis in the [Jupyter Notebook](c:\Users\James\OneDrive\Documents\Flatiron\Phase_2\Project_2\Mine\Project_2\index.ipynb) or review this [presentation](c:\Users\James\OneDrive\Documents\Flatiron\Phase_2\Project_2\Mine\Project_2\Movie analysis (1).pptx)
 
 For additional info, contact [Chisum Lindauer](https://www.linkedin.com/in/chisum-lindauer-2632112/) or [James Warsing](https://www.linkedin.com/in/james-warsing-a51360303/)
